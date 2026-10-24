@@ -1,0 +1,26 @@
+# 运行时产物
+*.pyc
+__pycache__/
+.venv/
+venv/
+
+# 部署现场（绝不要提交）
+data/
+_backup/
+logs/
+*.log
+cmd_config.json
+*.db
+*.db-wal
+*.db-shm
+
+# 素材与个人数据
+*.wav
+*.mp3
+*.mp4
+persona.txt
+我的角色*.md
+
+# 系统
+.DS_Store
+Thumbs.db
